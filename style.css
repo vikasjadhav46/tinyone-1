@@ -1,0 +1,181 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.heroimg{
+	background-color: #fcdb00;
+	padding: 60px 0 110px 0; 
+}
+
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.row,.row::after,
+.row::before{
+	clear: both;
+	width: 100%;
+	display: table;
+}
+
+ul.navbar{
+	
+}
+
+ul.navbar li{
+	display: inline-block;
+	height: 43px;
+	padding: 0 16px;
+}
+
+.navbar li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color:#010101;
+	line-height: 43px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar li a:hover{
+	transform: scale(1.2);
+	transition: all 0.3s linear;
+}
+
+.navbar li a.features{
+	padding-left: 27px;
+}
+
+.pre-heading{
+	color:#010101;
+	font-size: 32px;
+	padding-top: 130px;
+	margin-bottom: 22px;
+}
+
+.second-heading{
+	color:#313841;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.img{
+	padding-top: 70px;
+}
+
+.info{
+	font-size: 16px;
+	color:#555555;
+	margin-bottom: 40px;	
+}
+
+.appleandroidwindows li{
+	display: inline-block;
+	
+}
+
+.appleandroidwindows i{
+	color: black;
+    padding: 0 15px;
+}
+
+.appleandroidwindows i:hover{
+	transition: all 0.3s linear;
+	transform: scale(1.2);
+}
+
+
+/*         section features starts from here       */
+
+.features .pre-heading{
+	padding-top: 120px;
+}
+
+.features .second-heading{
+	margin-bottom: 90px;
+	padding: 0 100px;
+	color: #313841;
+}
+
+.features-info{
+	font-size: 22px;
+	color: #010101;
+	margin-bottom: 15px;
+}
+
+.features-subinfo{
+	color: #898989;
+	font-size: 16px;
+	margin-bottom: 85px;
+}
+
+.features .row .col-4{
+	height: 115px;
+	margin-bottom: 85px;
+}
+
+/*            section contact starts from here       */
+
+.contact{
+	background-color:#000000;
+}
+
+.contact .pre-heading{
+	padding-top: 80px;  /* use this beacuse we have to provide margin of 165px bet. section feature and contact and we have provided 85px already above margin-bottom */
+	color: #fcdb00;
+}
+
+.contact .second-heading{
+	margin-bottom: 40px;
+	color: #898989;
+}
+
+.form-control{
+	height: 50px;
+	margin: 0 20px 0 30px;
+	width: calc(100% - 220px);
+	border-radius: 10px;
+	padding: 0 10px;
+	outline: none;
+}
+
+.form-control::placeholder{
+	color: #898989;
+}
+
+.submitbtn{
+	width: 130px;
+	height: 50px;
+	margin-right: 30px;
+	cursor: pointer;
+	color: #010101;
+	background-color: #fcdb00;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.container label{
+	display: inline-block;
+	width: 1px;
+	height: 1px;
+}
+
+.inputemail{
+	margin-bottom: 80px;
+}
+
+.contact .appleandroidwindows i{
+	color: #fcdb00;
+}
+
+.contact .appleandroidwindows{
+	text-align: center;
+	margin-bottom: 130px;
+}
+
+.contact .contactinfo{
+	padding-bottom: 140px;
+}
